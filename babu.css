@@ -1,0 +1,137 @@
+header {
+  background-color: #007bff;
+  padding: 20px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+  gap: 12px;
+}
+
+.product {
+  margin-top:10px;
+  width: 130px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product button {
+  margin-top: 10px;
+  padding: 6px 13px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  /* Styling the footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling the copyright text */
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Styling the "Accept All Cookies" link */
+#acceptCookies {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  form{
+    position: relative;
+    top: 20px;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: gray;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid black;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover,
+form:valid{
+    width: 150px;
+    cursor: pointer;
+}
+
+form:hover input,
+form:valid input{
+    display: block;
+}
+
+form:hover .fa,
+form:valid .fa{
+    background: gray;
+    color: red;
+}
+
+
+a {
+  display: none;
+  position: absolute;
+  top: 70px;
+  bottom:0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  color: red;
+  text-align: center; 
+  width: 100%;
+}
+
+form:valid a {
+  display: block;
+}
+
