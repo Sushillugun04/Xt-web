@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLN.Search</title>
+  <link rel="stylesheet" href="/storage/emulated/0/web css00.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap">
+</head>
+<body>
+    <div class="header">
+        <div class="search-bar">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" id="search-input" placeholder="Search Your Name" oninput="filterProducts()">
+            <ion-icon name="close-outline" class="clear-btn" onclick="clearSearch()"></ion-icon>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <div class="nav-item" id="home-icon">
+            <a href="/storage/emulated/0/baba Adam web/index.html" target="_blank">
+                <ion-icon name="home-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="nav-item" id="chat-icon">
+            <a href="https://www.google.com" target="_blank">
+                <ion-icon name="chatbubble-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="nav-item" id="search-icon">
+            <a href="" target="_blank">
+                <ion-icon name="search-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="nav-item whatsapp-icon">
+            <a href="https://wa.me/9827361619" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="product-container" id="product-container">
+            <!-- Products will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="/storage/emulated/0/a1 class.js"></script>
+</body>
+</html>
